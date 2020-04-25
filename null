@@ -1,0 +1,328 @@
+nohup: ignoring input
+ * Serving Flask app "demo" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5050/ (Press CTRL+C to quit)
+127.0.0.1 - - [04/Apr/2020 04:46:03] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:46:04] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:46:04] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:46:04] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:46:04] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:46:48] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:46:48] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:47:04] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:05] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:05] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:05] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:05] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:47:05] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:05] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:05] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:05] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:05] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:47:06] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:06] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:06] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:06] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:06] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:47:07] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:07] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:07] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:07] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:07] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:47:07] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:07] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:07] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:07] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:07] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:47:08] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:08] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:08] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:08] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:08] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:47:09] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:09] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:09] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:09] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:09] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:47:09] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:09] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:09] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:09] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:09] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:47:12] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:12] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:47:12] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:12] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 04:47:12] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:48:40] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:48:40] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:48:40] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:48:40] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:48:40] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:48:40] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:49:11] "[37mPOST / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:49:24] "[37mPOST / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:49:31] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:49:32] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:49:32] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:49:32] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:49:32] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:49:32] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:49:57] "[37mPOST / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:50:01] "[37mPOST / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:50:02] "[37mPOST / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:56:54] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:56:54] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:56:54] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:56:54] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 04:56:54] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 04:56:54] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 05:04:59] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:04:59] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 05:04:59] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 05:05:10] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:05:11] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:05:11] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:05:11] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:05:11] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 05:05:11] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 05:05:34] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:05:34] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:05:34] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:05:34] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:05:35] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 05:05:35] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 05:05:44] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:10:40] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:10:40] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 05:10:40] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 05:37:02] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:37:02] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:37:02] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:37:02] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:37:03] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 05:37:03] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 05:48:58] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 05:49:00] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 06:26:53] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 06:26:53] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 06:26:53] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 06:26:53] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 06:26:53] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 06:26:54] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 06:33:15] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 06:33:15] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 06:33:20] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 06:33:24] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 06:33:25] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 06:44:46] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 06:44:47] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 07:44:38] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 07:44:38] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 07:44:38] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 07:44:38] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 07:44:38] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 07:44:39] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 07:45:38] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 07:45:38] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 08:34:12] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 08:34:13] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 08:34:13] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 08:34:13] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 08:34:13] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 08:34:13] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 08:34:29] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 08:34:30] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 08:34:30] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 08:54:04] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 08:54:04] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 08:54:04] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 08:54:04] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 08:54:04] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 08:54:04] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 08:56:25] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 08:56:25] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 09:05:37] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 09:05:37] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 09:05:37] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 09:05:37] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 09:05:37] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 09:16:40] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 09:16:41] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 09:16:41] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 09:16:41] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 09:16:42] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 10:06:07] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:06:07] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:06:07] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:06:07] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:06:07] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 10:06:08] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 10:21:55] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:21:55] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:21:55] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:21:55] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:21:56] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 10:21:56] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 10:27:26] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:27:26] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 10:27:26] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 10:30:38] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:30:38] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:30:38] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:30:38] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:30:38] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 10:30:38] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 10:51:15] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:51:16] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:51:16] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:51:16] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 10:51:16] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 10:51:16] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 11:38:41] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 11:38:41] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 11:38:41] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 11:38:41] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 11:38:41] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 11:53:55] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 11:53:56] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 11:53:56] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 12:25:06] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:10:00] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:10:00] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:10:00] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:10:46] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:10:47] "[37mGET /static/index.css HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:10:47] "[37mGET /static/jquery.min.js HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:10:47] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:10:47] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:13:25] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:13:25] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+[2020-04-04 13:13:42,161] ERROR in app: Exception on / [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/pyquery/pyquery.py", line 96, in fromstring
+    result = getattr(etree, meth)(context)
+  File "src/lxml/etree.pyx", line 3235, in lxml.etree.fromstring
+  File "src/lxml/parser.pxi", line 1876, in lxml.etree._parseMemoryDocument
+  File "src/lxml/parser.pxi", line 1757, in lxml.etree._parseDoc
+  File "src/lxml/parser.pxi", line 1068, in lxml.etree._BaseParser._parseUnicodeDoc
+  File "src/lxml/parser.pxi", line 601, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 711, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 640, in lxml.etree._raiseParseError
+  File "<string>", line 1
+lxml.etree.XMLSyntaxError: Document is empty, line 1, column 1
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "demo.py", line 27, in login
+    jdzuLogin(username, password, verifycode)
+  File "demo.py", line 66, in jdzuLogin
+    rep = py(sess.get('http://61.131.228.75:8080/jsxsd/framework/xsMain.jsp', headers=headers).text)
+  File "/usr/local/lib/python3.6/site-packages/pyquery/pyquery.py", line 256, in __init__
+    elements = fromstring(context, self.parser)
+  File "/usr/local/lib/python3.6/site-packages/pyquery/pyquery.py", line 100, in fromstring
+    result = getattr(lxml.html, meth)(context)
+  File "/usr/local/lib64/python3.6/site-packages/lxml/html/__init__.py", line 875, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/usr/local/lib64/python3.6/site-packages/lxml/html/__init__.py", line 764, in document_fromstring
+    "Document is empty")
+lxml.etree.ParserError: Document is empty
+127.0.0.1 - - [04/Apr/2020 13:13:42] "[35m[1mPOST / HTTP/1.0[0m" 500 -
+127.0.0.1 - - [04/Apr/2020 13:13:54] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:13:54] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:13:58] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:13:58] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:13:58] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:13:58] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:13:58] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:14:13] "[37mPOST / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:17] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:17] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:17] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:17] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:17] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:14:18] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:18] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:18] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:18] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:18] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:14:19] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:19] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:19] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:19] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:19] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:14:20] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:20] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:20] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:20] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:20] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:14:26] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:26] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:14:26] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:14:28] "[37mPOST / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:36] "[37mPOST / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:43] "[37mPOST / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:46] "[37mPOST / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:47] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:48] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:48] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:48] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:48] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:14:48] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:48] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:48] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:48] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:48] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:14:49] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:49] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:49] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:49] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:49] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:14:50] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:50] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:50] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:14:50] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 13:14:50] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:15:03] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:15:03] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:15:04] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:15:12] "[37mPOST / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:17:47] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:17:47] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:17:47] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:17:47] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 13:17:51] "[37mPOST / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:18:47] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 13:18:47] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 14:05:02] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 14:05:03] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 14:05:03] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 14:05:03] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 14:05:03] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 14:05:05] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 14:05:05] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 14:05:05] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 14:05:05] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 14:05:05] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 14:05:08] "[37mGET / HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 14:05:09] "[36mGET /static/index.css HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 14:05:09] "[36mGET /static/jquery.min.js HTTP/1.0[0m" 304 -
+127.0.0.1 - - [04/Apr/2020 14:05:11] "[37mGET /static/verifycode.jpg HTTP/1.0[0m" 200 -
+127.0.0.1 - - [04/Apr/2020 14:05:11] "[33mGET /static/login.jpg HTTP/1.0[0m" 404 -
+127.0.0.1 - - [04/Apr/2020 14:05:11] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
